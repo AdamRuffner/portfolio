@@ -6,6 +6,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import schedule from "../public/schedule-app.jpg";
+import garbage from "../public/garbage-app.jpg";
 import porsche from "../public/porsche.jpg";
 import { useState } from "react";
 
@@ -149,7 +150,11 @@ export default function Home() {
                 A scheduling app with login, date & time selectors, and don't
                 forget your confirmation email sent immediately!
               </p>
-              <a href="https://scheduling-app1.vercel.app/">
+              <a
+                href="https://scheduling-app1.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src={schedule}
                   alt="car"
@@ -161,14 +166,24 @@ export default function Home() {
               </a>
             </div>
             <div className=" basis-1/3 flex-1">
-              <Image
-                src={porsche}
-                alt="car"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <p className="py-10 dark:text-gray-400">
+                One pager for a commercial dumpster business that has been
+                around for multiple generations in the Indiana area.
+              </p>
+              <a
+                href="https://scheduling-app1.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={garbage}
+                  alt="car"
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className=" basis-1/3 flex-1">
               <Image

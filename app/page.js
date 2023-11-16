@@ -21,7 +21,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="py-10">
           <nav className="p-10 mb-12 flex justify-between">
-            <h1 className=" text-xl dark:text-gray-400">developedbyadam</h1>
+            <h1 className=" text-xl dark:text-gray-400"></h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -104,6 +104,7 @@ export default function Home() {
               <p className=" text-gray-800 py-3 dark:text-gray-400">
                 • ReactJS
               </p>
+              <p className=" text-gray-800 py-3 dark:text-gray-400">• NextJS</p>
               <p className=" text-gray-800 py-3 dark:text-gray-400">• NodeJS</p>
               <p className=" text-gray-800 py-3 dark:text-gray-400">
                 • Restful APIs
@@ -139,10 +140,6 @@ export default function Home() {
         <section>
           <div>
             <h3 className=" text-3xl py-1 dark:text-teal-600">Portfolio</h3>
-            {/* <p className=" text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-              Below are some of my favorite projects that I have had the
-              opportunity of making, click them and check them out!
-            </p> */}
           </div>
           <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap text-center">
             <div className=" basis-1/3 flex-1">
@@ -171,7 +168,7 @@ export default function Home() {
                 around for multiple generations in the Indiana area.
               </p>
               <a
-                href="https://scheduling-app1.vercel.app/"
+                href="https://buck-truck.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -184,26 +181,6 @@ export default function Home() {
                   layout="responsive"
                 />
               </a>
-            </div>
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={porsche}
-                alt="car"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={porsche}
-                alt="car"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
             </div>
           </div>
         </section>

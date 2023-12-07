@@ -157,8 +157,8 @@ export default function Home() {
                   src={schedule}
                   alt="car"
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  // width={"100%"}
+                  // height={"90%"}
                   layout="responsive"
                 />
               </a>
@@ -177,8 +177,8 @@ export default function Home() {
                   src={garbage}
                   alt="car"
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  // width={"100%"}
+                  // height={"100%"}
                   layout="responsive"
                 />
               </a>

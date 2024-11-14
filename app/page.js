@@ -10,6 +10,7 @@ import schedule from "../public/schedule-app.jpg";
 import sched from "../public/schedule.webp";
 import garbage from "../public/garbage-app.jpg";
 import dumpster from "../public/dumpster.webp";
+import ecommerce from "../public/ecommerce.webp";
 import porsche from "../public/porsche.jpg";
 import { useState } from "react";
 
@@ -147,7 +148,27 @@ export default function Home() {
             </h3>
           </div>
           <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap text-center">
-            <div className=" basis-1/3 flex-1">
+            <div className=" basis-1/4 flex-1">
+              <p className="py-10 dark:text-gray-400">
+                An Ecommerce site to look and filter through products, see
+                product descriptions and prices using Fake Store API
+              </p>
+              <a
+                href="https://ecommerce-showcase-chi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={ecommerce}
+                  alt="car"
+                  className="rounded-lg object-cover"
+                  // width={"100%"}
+                  // height={"90%"}
+                  layout="responsive"
+                />
+              </a>
+            </div>
+            <div className=" basis-1/4 flex-1">
               <p className="py-10 dark:text-gray-400">
                 A scheduling app with login, date & time selectors, and don't
                 forget your confirmation email sent immediately!
@@ -167,7 +188,7 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className=" basis-1/3 flex-1">
+            <div className=" basis-1/4 flex-1">
               <p className="py-10 dark:text-gray-400">
                 One pager for a commercial dumpster business that has been
                 around for multiple generations in the Indiana area.

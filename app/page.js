@@ -7,7 +7,9 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import schedule from "../public/schedule-app.jpg";
+import sched from "../public/schedule.webp";
 import garbage from "../public/garbage-app.jpg";
+import dumpster from "../public/dumpster.webp";
 import porsche from "../public/porsche.jpg";
 import { useState } from "react";
 
@@ -48,9 +50,9 @@ export default function Home() {
               Web Developer
             </h3>
             <p className=" text-md py-5 leading-8 text-gray-800 md:text-xl max-w-l mx-auto dark:text-gray-400">
-              I am a front end web developer based in Phoenix, Arizona. I work
-              with businesses to create unique websites to stun clients with a
-              clean and user friendly environment.
+              I am a front end web developer based in Virginia. I work with
+              businesses to create unique websites to stun clients with a clean
+              and user friendly environment.
             </p>
           </div>
           <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-600">
@@ -78,8 +80,8 @@ export default function Home() {
               </h3>
               <p className="py-2 dark:text-gray-400">
                 My name is Adam Ruffner and I am a front end web developer in
-                Phoenix. In 2020 I decided that I wanted to learn how to code --
-                I started teaching myself with free online material and then
+                Virginia. In 2020 I decided that I wanted to learn how to code
+                -- I started teaching myself with free online material and then
                 decided to do an online bootcamp to further my knowledge and to
                 have some structure while learning.
               </p>
@@ -140,7 +142,9 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className=" text-3xl py-1 dark:text-teal-600">Portfolio</h3>
+            <h3 className=" text-3xl py-1 dark:text-teal-600 flex justify-center">
+              Portfolio
+            </h3>
           </div>
           <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap text-center">
             <div className=" basis-1/3 flex-1">
@@ -154,7 +158,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src={schedule}
+                  src={sched}
                   alt="car"
                   className="rounded-lg object-cover"
                   // width={"100%"}
@@ -174,7 +178,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src={garbage}
+                  src={dumpster}
                   alt="car"
                   className="rounded-lg object-cover"
                   // width={"100%"}

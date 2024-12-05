@@ -151,7 +151,8 @@ export default function Home() {
             <div className=" basis-1/4 flex-1">
               <p className="py-10 dark:text-gray-400">
                 An Ecommerce site to look and filter through products, see
-                product descriptions and prices using Fake Store API
+                product descriptions and prices using Fake Store API. It is
+                deployed using Vercel.
               </p>
               <a
                 href="https://ecommerce-showcase-chi.vercel.app/"
@@ -171,7 +172,8 @@ export default function Home() {
             <div className=" basis-1/4 flex-1">
               <p className="py-10 dark:text-gray-400">
                 A scheduling app with login, date & time selectors, and don't
-                forget your confirmation email sent immediately!
+                forget your confirmation email sent immediately! Also deplyed to
+                vercel, does not use a back end.
               </p>
               <a
                 href="https://scheduling-app1.vercel.app/"
@@ -191,7 +193,8 @@ export default function Home() {
             <div className=" basis-1/4 flex-1">
               <p className="py-10 dark:text-gray-400">
                 One pager for a commercial dumpster business that has been
-                around for multiple generations in the Indiana area.
+                around for multiple generations in the Indiana area. Deployed on
+                Vercel, currently have placeholder images.
               </p>
               <a
                 href="https://buck-truck.vercel.app/"
